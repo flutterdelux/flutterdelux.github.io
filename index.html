@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title">Flutter Delux | Elevate Your Flutter Skills Beyond Coding</title>
+    <meta name="description"
+        content="Transformasi dari seorang Coder menjadi System Architect. Optimasi development menggunakan AI, Enterprise Architecture, dan Fullstack Ecosystem.">
+    <!-- Icon/Favicon (Ubah href ke nama file icon Anda jika berbeda) -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="glow-bg"></div>
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">
+                <img src="assets/favicon.png" alt="Logo" class="nav-logo-img">
+                <span class="logo-text">Flutter Delux</span>
+            </div>
+            <div class="nav-links">
+                <a href="https://youtube.com/@flutterdelux" target="_blank" class="nav-link"
+                    data-i18n="navYoutube">YouTube</a>
+                <a href="https://github.com/flutterdelux" target="_blank" class="nav-link"
+                    data-i18n="navGithub">GitHub</a>
+                <div class="lang-switch">
+                    <button class="lang-btn active" onclick="setLang('id')">ID</button>
+                    <span class="lang-sep">|</span>
+                    <button class="lang-btn" onclick="setLang('en')">EN</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container">
+            <div class="hero-content">
+                <div class="badge" data-i18n="heroBadge">🚀 The AI-Powered Workflow</div>
+                <h1 class="hero-title" data-i18n="heroTitle">Elevate Your Flutter Skills <br><span
+                        class="text-gradient">Beyond Coding.</span>
+                </h1>
+                <p class="hero-description" data-i18n="heroDesc">
+                    Selamat datang di Flutter Delux! Di era AI saat ini, menulis kode baris demi baris bukan lagi
+                    pembeda utama. Pembeda sesungguhnya adalah bagaimana Anda merancang sistem yang skalabel dan
+                    memanfaatkan teknologi terbaru untuk bekerja <strong>10x lebih cepat</strong>.
+                </p>
+                <div class="hero-cta">
+                    <a href="https://youtube.com/@flutterdelux" target="_blank" class="btn btn-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M21.582,6.186c-0.23-0.86-0.908-1.538-1.768-1.768C18.254,4,12,4,12,4S5.746,4,4.186,4.418c-0.86,0.23-1.538,0.908-1.768,1.768C2,7.746,2,12,2,12s0,4.254,0.418,5.814c0.23,0.86,0.908,1.538,1.768,1.768C5.746,20,12,20,12,20s6.254,0,7.814-0.418c0.86-0.23,1.538-0.908,1.768-1.768C22,16.254,22,12,22,12S22,7.746,21.582,6.186z M10,15.464V8.536L16,12L10,15.464z" />
+                        </svg>
+                        <span data-i18n="btnSubscribe">Subscribe Sekarang</span>
+                    </a>
+                    <a href="https://github.com/flutterdelux" target="_blank" class="btn btn-secondary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12,2C6.477,2,2,6.477,2,12c0,4.418,2.865,8.166,6.839,9.489c0.5,0.092,0.682-0.217,0.682-0.482c0-0.237-0.009-0.866-0.014-1.699c-2.782,0.604-3.369-1.34-3.369-1.34c-0.454-1.155-1.11-1.462-1.11-1.462c-0.908-0.62,0.069-0.608,0.069-0.608c1.003,0.07,1.531,1.03,1.531,1.03c0.892,1.529,2.341,1.087,2.91,0.831c0.092-0.646,0.349-1.087,0.635-1.338c-2.22-0.253-4.555-1.11-4.555-4.943c0-1.091,0.39-1.984,1.029-2.683c-0.103-0.253-0.446-1.27,0.098-2.647c0,0,0.84-0.269,2.75,1.026C10.795,7.095,11.397,6.984,12,6.98c0.603,0.004,1.205,0.115,2.004,0.332c1.909-1.295,2.748-1.026,2.748-1.026c0.546,1.377,0.203,2.394,0.1,2.647c0.64,0.699,1.028,1.592,1.028,2.683c0,3.842-2.338,4.687-4.566,4.935c0.359,0.309,0.678,0.919,0.678,1.852c0,1.336-0.012,2.415-0.012,2.743c0,0.267,0.18,0.578,0.688,0.48C19.137,20.164,22,16.418,22,12C22,6.477,17.523,2,12,2z" />
+                        </svg>
+                        <span data-i18n="btnGithub">GitHub Ecosystem</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image-container">
+                <!-- Jika menggunakan gambar kotak (logo flat), Anda bisa menghapus class "floating" -->
+                <img src="assets/hero-graphic.png" alt="System Architecture Illustration" id="hero-graphic"
+                    class="floating">
+                <div class="glow-effect"></div>
+            </div>
+        </section>
+
+        <section class="features container">
+            <div class="section-header">
+                <h2 data-i18n="sectionHeaderTitle">Transformasi dari Coder ke <span class="text-gradient">System
+                        Architect</span></h2>
+                <p data-i18n="sectionHeaderDesc">Kita tidak hanya belajar membuat UI yang cantik, tapi fokus pada
+                    membangun ekosistem aplikasi yang
+                    solid.</p>
+            </div>
+
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3 data-i18n="feature1Title">The AI-Powered Workflow</h3>
+                    <p data-i18n="feature1Desc">Optimasi development menggunakan AI (LLMs) untuk efisiensi maksimal
+                        dalam menulis kode dan
+                        problem-solving.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏗️</div>
+                    <h3 data-i18n="feature2Title">Enterprise Architecture</h3>
+                    <p data-i18n="feature2Desc">Kupas tuntas Clean Architecture, Test-Driven Development (TDD), dan
+                        State Management tingkat
+                        lanjut yang scalable.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3 data-i18n="feature3Title">Fullstack Ecosystem</h3>
+                    <p data-i18n="feature3Desc">Integrasi Flutter dengan backend high-performance seperti Supabase,
+                        Firebase, dan layanan cloud
+                        modern lainnya.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚙️</div>
+                    <h3 data-i18n="feature4Title">Automation & DevOps</h3>
+                    <p data-i18n="feature4Desc">Mempercepat rilis aplikasi dengan CI/CD pipeline yang handal dan teknik
+                        Code Generation yang
+                        terstruktur.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section container">
+            <div class="cta-box glass">
+                <h2 data-i18n="ctaTitle">Siap menciptakan standar baru dalam software engineering?</h2>
+                <p data-i18n="ctaDesc">Mari bergabung bersama developer lain yang fokus pada kualitas, skalabilitas, dan
+                    inovasi.</p>
+                <a href="https://youtube.com/@flutterdelux" target="_blank" class="btn btn-primary"
+                    data-i18n="ctaBtn">Subscribe YouTube
+                    Channel</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="logo">
+                <span class="logo-text">Flutter Delux</span>
+                <span class="logo-badge">🦋</span>
+            </div>
+            <p data-i18n="footerDesc">Elevate Your Flutter Skills Beyond Coding.</p>
+            <div class="footer-links">
+                <a href="https://youtube.com/@flutterdelux" target="_blank" data-i18n="navYoutube">YouTube</a>
+                <a href="https://github.com/flutterdelux" target="_blank" data-i18n="navGithub">GitHub</a>
+                <a href="mailto:flutterdelux@gmail.com">flutterdelux@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
