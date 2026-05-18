@@ -49,16 +49,16 @@ const translations = {
     }
 };
 
-let currentLang = 'id';
+let currentLang = 'en';
 
 function setLang(lang) {
     if (!translations[lang]) return;
     currentLang = lang;
-    
+
     // Update active button
     document.querySelectorAll('.lang-btn').forEach(btn => {
         btn.classList.remove('active');
-        if(btn.innerText.toLowerCase() === lang) {
+        if (btn.innerText.toLowerCase() === lang) {
             btn.classList.add('active');
         }
     });
@@ -108,14 +108,14 @@ document.addEventListener('DOMContentLoaded', () => {
         ctaBox.style.transition = `all 0.6s ease-out`;
         observer.observe(ctaBox);
     }
-    
+
     // Smooth hover effect for cards
     featureCards.forEach(card => {
         card.addEventListener('mousemove', (e) => {
             const rect = card.getBoundingClientRect();
             const x = e.clientX - rect.left;
             const y = e.clientY - rect.top;
-            
+
             card.style.setProperty('--mouse-x', `${x}px`);
             card.style.setProperty('--mouse-y', `${y}px`);
         });
