@@ -1,12 +1,27 @@
 :root {
-    --bg-dark: #05050A;
-    --bg-card: rgba(255, 255, 255, 0.03);
-    --border-color: rgba(255, 255, 255, 0.08);
-    --text-primary: #F4F4F5;
-    --text-secondary: #A1A1AA;
-    --accent-1: #3B82F6; /* Flutter Blue */
-    --accent-2: #8B5CF6; /* Purple AI vibe */
-    --accent-glow: rgba(59, 130, 246, 0.5);
+    /* Background utama menggunakan warna gelap pekat */
+    --bg-dark: #0A0F1C; 
+    
+    /* Background card/glass. Kita gunakan abu-abu gelap dengan sedikit transparansi agar elegan */
+    --bg-card: rgba(50, 51, 51, 0.4); /* Berbasis dari warna #323333 */
+    
+    /* Border bisa menggunakan abu-abu medium */
+    --border-color: #5A5B5B; /* Atau biarkan rgba(255, 255, 255, 0.08) jika ingin lebih tipis/halus */
+    
+    /* Teks utama menggunakan putih tulang/soft agar tidak membuat mata cepat lelah */
+    --text-primary: #ECECEC;
+    
+    /* Teks sekunder/deskripsi menggunakan abu-abu terang */
+    --text-secondary: #8B8C8C;
+    
+    /* Warna aksen utama (Cyan) */
+    --accent-1: #21DBF0; 
+    
+    /* Warna aksen kedua (Ungu) */
+    --accent-2: #B897F1; 
+    
+    /* Glow effect mengambil dari aksen 1 dengan transparansi 50% */
+    --accent-glow: rgba(33, 219, 240, 0.5); 
 }
 
 * {

@@ -1,6 +1,7 @@
 const translations = {
     id: {
         title: "Flutter Delux | Tingkatkan Kemampuan Flutter Anda",
+        navFsda: "Dokumentasi FSDA",
         navYoutube: "YouTube",
         navGithub: "GitHub",
         heroBadge: "🚀 Developer Masa Depan",
@@ -25,6 +26,7 @@ const translations = {
     },
     en: {
         title: "Flutter Delux | Elevate Your Flutter Skills Beyond Coding",
+        navFsda: "FSDA Docs",
         navYoutube: "YouTube",
         navGithub: "GitHub",
         heroBadge: "🚀 The Next-Gen Developer",
